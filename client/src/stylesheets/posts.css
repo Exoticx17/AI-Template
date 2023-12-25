@@ -1,0 +1,133 @@
+.postcontainer {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2500px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Center items on the x-axis */
+    align-items: center; /* Center items on the y-axis */
+    max-width: 1500px;
+    max-height: 1500px;
+    padding: 20px;
+    margin: 0 auto; /* Center the container itself */
+  }  
+  
+
+.random-item {
+    border: 1px solid #008db1;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    min-height: 350px;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Ensures items are stacked vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    border-radius: 7px;
+  }
+  
+
+.random-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    max-height: 150px;
+}
+
+.likepost,
+.dispost {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+    font-size:x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.likepost:hover,
+.dispost:hover {
+    opacity: 0.8;
+}
+
+.likepost {
+    background-color: #007bff;
+}
+
+.likepost.liked {
+    background-color: #4caf50;
+}
+
+.dispost {
+    background-color: #dc3545;
+}
+
+.dispost.liked {
+    background-color: #f44336;
+}
+/*Top Photo Part*/
+.ptopphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ptopbasic{
+    height: 900px;
+    z-index: -1;
+    width: 102.1%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .ptopphoto h2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+  }
+  .pbbutton{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #008db1;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 300px;
+  }
+  .pybutton{
+    font-size: 24px;
+    background-color: #c3bb38;
+    font-weight: bold;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: -300px;
+  }
+  .pybutton:hover{
+    cursor: pointer;
+    background-color: #f4eb49;
+  }
+  .pbbutton:hover{
+    cursor: pointer;
+    background-color: #00a4d3;
+  }

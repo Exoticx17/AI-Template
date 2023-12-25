@@ -1,0 +1,72 @@
+.sform {
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .logger {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0 auto 20px;
+    margin-bottom: 50px;
+  }
+  
+  .vertical-lines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    padding: 20px;
+  }
+  
+  .inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px; /* Margin between email and password */
+  }
+  
+  .email,
+  .password,
+  .nickname {
+    width: 250px;
+    margin-top: 15px;
+    background-color: #00a4d3;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .email,
+  .password {
+    margin-right: 25px; /* Margin between email and password */
+  }
+  
+  .email::placeholder,
+  .password::placeholder,
+  .nickname::placeholder {
+    color: black;
+    font-size: 17px;
+    padding-left: 5px;
+  }
+  
+  .ssubmit {
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #e863af;
+    margin-top: 20px;
+    width: 250px;
+    height: 43px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  
+  .ssubmit:hover {
+    cursor: pointer;
+    background-color: #63afe8;
+    transform: scale(1.2);
+  }

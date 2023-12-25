@@ -1,0 +1,143 @@
+.usernick{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px
+}
+.together{
+    border: 2px solid #165a72;
+    border-radius: 7px;
+    scrollbar-width: thin;
+    background-color: #e4f7ff;
+    align-content: center;
+    align-items: center;
+    max-height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+.times{
+    display: flex;
+    justify-content: center;
+}
+.usertimep{
+    font-size: 20px;
+}
+.current{
+    display: flex;
+    justify-content: center;
+}
+.useremail{
+    font-size: 20px;
+    margin-right: 35px;
+}
+.userpass{
+    font-size: 20px;
+    margin-left: 35px;
+}
+.change{
+    border: 2px solid #165a72;
+    border-radius: 7px;
+    scrollbar-width: thin;
+    background-color: #e4f7ff;
+    align-content: center;
+    align-items: center;
+    max-height: 500px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: center;
+    display: flex;
+    height: 75px;
+}
+.cpass{
+    border: 1px solid #165a72;
+    border-radius: 4px;
+    padding-left: 7px;
+    width: 200px;
+    height: 25px
+}
+.cpass::placeholder{
+    color:black;
+    font-size: 17px;
+}
+.new{
+    border: 1px solid #165a72;
+    border-radius: 4px;
+    padding-left: 7px;
+    width: 200px;
+    height: 25px;
+    margin-left: 50px
+}
+.new::placeholder{
+    color:black;
+    font-size: 17px;
+}
+.changebut{
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin-left: 50px;
+    background-color: #165a72;
+    color: white;
+    width: 150px;
+    height: 25px;
+}
+/*Top Photo Part*/
+.topphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .topuser{
+    height: 900px;
+    z-index: -1;
+    width: 102.1%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .topphoto h2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+  }
+  .bbutton{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #008db1;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 300px;
+  }
+  .ybutton{
+    font-size: 24px;
+    background-color: #c3bb38;
+    font-weight: bold;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: -300px;
+  }
+  .ybutton:hover{
+    cursor: pointer;
+    background-color: #f4eb49;
+  }
+  .bbutton:hover{
+    cursor: pointer;
+    background-color: #00a4d3;
+  }

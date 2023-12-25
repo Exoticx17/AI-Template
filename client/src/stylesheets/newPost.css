@@ -1,0 +1,181 @@
+.hide{
+    display: none;
+}
+
+.imageb,
+.textb{
+    font-size: 25px; 
+    color: #c1d045;
+    text-decoration: none;
+    margin: 50px;
+    background-color: #008db1;
+    border-radius: 8px;
+    width: 115px;
+    height: 45px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.imageb:hover{
+    cursor: pointer;
+    color: #008db1;
+    background-color: #c1d045;
+}
+
+.textb:hover{
+    cursor: pointer;
+    color: #008db1;
+    background-color: #c1d045;
+}
+
+.chosing{
+    display: flex;
+    justify-content: center;
+}
+
+.file-creation-form{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+    height: 150px
+}
+.file-creation-form h2{
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.fcreatefilebut {
+    height: 25px;
+    width: 115px;
+    background-color: #165a72;
+    color: transparent;
+    font-size: 18px;
+    border: 1px solid #165a72;
+    border-radius: 5px;
+    padding-left: 7px;
+    line-height: 25px;
+    margin-right: 50px;
+}
+.fcreatefilebut::-webkit-file-upload-button {
+    background-color: #165a72;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.fcreatefilebut::-webkit-file-upload-button:hover{
+    cursor: pointer;
+    background-color: #2596be;
+}
+
+.fsubmitbut{
+    background-color: #165a72;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 28px;
+    text-align: center;
+    line-height: 0;
+    font-size: 18px;
+    margin-left: 50px;
+}
+  
+.fcreatefilebut:hover, .fsubmitbut:hover{
+    cursor: pointer;
+    background-color: #2596be;
+}
+.ffile{
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-creation-form{
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 7px;
+    width: 90%;
+    margin-left: 5%;
+    height: 150px
+}
+
+.fnamei{
+    background-color: #165a72;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 10px;
+    line-height: 0;
+    margin-left: 50px;
+    color: white;
+    font-size: 17px;
+}
+.fnamei::placeholder{
+    color: white;
+    font-size: 17px;
+}
+
+/*Top Photo Part*/
+.ntopphoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .ntopbasic{
+    height: 900px;
+    z-index: -1;
+    width: 102.1%;
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+  .ntopphoto h2{
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+  }
+  .nbbutton{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #008db1;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: 300px;
+  }
+  .nybutton{
+    font-size: 24px;
+    background-color: #c3bb38;
+    font-weight: bold;
+    border: .5px solid white;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 14px;
+    height: 75px;
+    width: 250px;
+    position: absolute;
+    margin-top: 275px;
+    margin-left: -300px;
+  }
+  .nybutton:hover{
+    cursor: pointer;
+    background-color: #f4eb49;
+  }
+  .nbbutton:hover{
+    cursor: pointer;
+    background-color: #00a4d3;
+  }

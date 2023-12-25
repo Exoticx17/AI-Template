@@ -1,0 +1,10 @@
+tensorflow
+keras
+matplotlib
+efficientnet
+numpy
+pandas
+scikit-learn
+Flask
+Flask-Cors
+Pillow

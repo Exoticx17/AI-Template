@@ -1,0 +1,88 @@
+.icon{
+    width: 65px;
+    margin-top: 3px;
+    margin-left: 50px
+}
+.landing-nav{
+    background-color: #e4f7ff;
+    height: 75px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+.savitar{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold
+}
+.xposts{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin-left: 750px;
+}
+.xnewposts{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 100px;
+}
+.xuserhome{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 100px;
+}
+.xlogin{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 100px;
+}
+.xsignup{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 100px;
+}
+.postss{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+    margin-left: 750px;
+}
+.newpostss{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 125px;
+}
+.userhomes{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+   margin-left: 125px;
+}
+.xlogout{
+    font-size: 22px; 
+    color: #c1d045;
+    text-decoration: none;
+    margin-left: 125px;
+    background-color: #008db1;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.xlogout:hover{
+    cursor: pointer;
+    color: #008db1;
+    background-color: #c1d045;
+}
